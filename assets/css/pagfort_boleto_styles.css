@@ -1,0 +1,31 @@
+/*styles pagfort client*/
+
+.pagfort-boleto-container{
+    padding: 10px 0 10px 0;
+}
+.button-copy-barcode{
+    margin-left: 20px!important;
+}
+
+.container-strong p{
+    font-weight: 100;
+}
+
+.pagfort-boleto-barcode{
+    font-size: 20px;
+}
+
+.pagfort-boleto-clear{
+    padding-bottom: 30px;
+}
+
+.pagfort-sandbox-message{
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px!important;
+}
+
+.italic-message{
+    font-style: italic;
+}

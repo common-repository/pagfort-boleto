@@ -1,0 +1,20 @@
+{
+    "name": "pagfort/pagfort_boleto",
+    "description": "Meio de pagamento brasileiro utilizando boleto bancário integrado com Woocommerce",
+    "require": {
+        "econea/nusoap": "dev-master",
+        "picqer/php-barcode-generator": "^0.3.0"
+    },
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "SPC Protesto Nacional",
+            "email": "duvidas@protestonacional.com.br"
+        },
+        {
+            "name": "PAGFORT SISTEMAS DE PAGAMENTOS LTDA",
+            "email": "desenvolvimento@pagfort.com.br"
+        }
+    ],
+    "minimum-stability": "dev"
+}

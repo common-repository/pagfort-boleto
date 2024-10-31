@@ -1,0 +1,130 @@
+[
+    {
+        "name": "econea/nusoap",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pwnlabs/nusoap.git",
+            "reference": "1b87a8373f16664e1b59c0c7edc78a3f55428fef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pwnlabs/nusoap/zipball/1b87a8373f16664e1b59c0c7edc78a3f55428fef",
+            "reference": "1b87a8373f16664e1b59c0c7edc78a3f55428fef",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "jakub-onderka/php-parallel-lint": "~1.0.0"
+        },
+        "time": "2019-12-28T14:31:59+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-0.9.x": "0.9.7.x-dev",
+                "dev-develop": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.0-only"
+        ],
+        "authors": [
+            {
+                "name": "Milan Felix Šulc",
+                "homepage": "https://f3l1x.io"
+            }
+        ],
+        "description": "Fixed NuSOAP for PHP 5.6 - 7.3",
+        "homepage": "https://github.com/econea/nusoap",
+        "keywords": [
+            "client",
+            "http",
+            "nusoap",
+            "php",
+            "soap",
+            "transport",
+            "xml"
+        ]
+    },
+    {
+        "name": "picqer/php-barcode-generator",
+        "version": "v0.3",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/picqer/php-barcode-generator.git",
+            "reference": "2e4d5b1f7f04fdb348d0721ada65963dac6f0c0c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/picqer/php-barcode-generator/zipball/2e4d5b1f7f04fdb348d0721ada65963dac6f0c0c",
+            "reference": "2e4d5b1f7f04fdb348d0721ada65963dac6f0c0c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.3"
+        },
+        "time": "2019-01-12T09:29:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Picqer\\Barcode\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "homepage": "http://nicolaasuni.tecnick.com"
+            },
+            {
+                "name": "Casper Bakker",
+                "email": "info@picqer.com"
+            }
+        ],
+        "description": "An easy to use, non-bloated, barcode generator in PHP. Creates SVG, PNG, JPG and HTML images from the most used 1D barcode standards.",
+        "homepage": "http://github.com/picqer/php-barcode-generator",
+        "keywords": [
+            "CODABAR",
+            "Code11",
+            "Code93",
+            "EAN13",
+            "KIX",
+            "KIXCODE",
+            "MSI",
+            "POSTNET",
+            "Pharma",
+            "Standard 2 of 5",
+            "barcode",
+            "barcode generator",
+            "code128",
+            "code39",
+            "ean",
+            "html",
+            "jpeg",
+            "jpg",
+            "php",
+            "png",
+            "svg",
+            "upc"
+        ]
+    }
+]

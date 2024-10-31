@@ -1,0 +1,769 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pagfort Boleto\n"
+"POT-Creation-Date: 2020-04-15 19:41-0300\n"
+"PO-Revision-Date: 2020-06-26 14:37-0300\n"
+"Last-Translator: SPC Protesto Nacional <cesar@protestonacional.com.br>\n"
+"Language-Team: Pagfort\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html__\n"
+"X-Poedit-SearchPath-0: pagfort-boleto.php\n"
+"X-Poedit-SearchPath-1: includes/class-pagfort-boleto-gateway.php\n"
+"X-Poedit-SearchPath-2: includes/class-pagfort-fields.php\n"
+"X-Poedit-SearchPath-3: includes/class-pagfort-boleto-admin.php\n"
+"X-Poedit-SearchPath-4: includes/class-pagfort-boleto-client.php\n"
+"X-Poedit-SearchPath-5: templates\n"
+"X-Poedit-SearchPath-6: includes/views/html-notice-woocommerce-missing.php\n"
+"X-Poedit-SearchPath-7: includes/views/html-notice-extra-checkout-fields-"
+"brazil-detected.php\n"
+"X-Poedit-SearchPath-8: includes/class-pagfort-ws-api.php\n"
+
+#: includes/class-pagfort-boleto-admin.php:43
+msgid "Pagfort Banking slip"
+msgstr "Pagfort Boleto"
+
+#: includes/class-pagfort-boleto-admin.php:84
+#: includes/class-pagfort-boleto-admin.php:95
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: includes/class-pagfort-boleto-admin.php:89
+#: includes/class-pagfort-boleto-admin.php:100
+msgid "Processing"
+msgstr "Processando"
+
+#: includes/class-pagfort-boleto-admin.php:107
+msgid "Order status not updated, please update the order to:"
+msgstr "Status do pedido não atualizado, por favor atualize o pedido para:"
+
+#: includes/class-pagfort-boleto-admin.php:111
+msgid "Update order"
+msgstr "Atualizar pedido"
+
+#: includes/class-pagfort-boleto-admin.php:130
+msgid "ATTENTION"
+msgstr "ATENÇÃO"
+
+#: includes/class-pagfort-boleto-admin.php:131
+msgid "The payment and the value are different! The payment was"
+msgstr "Ocorreu uma divergência no valor do pagamento, foi pago"
+
+#: includes/class-pagfort-boleto-admin.php:133
+msgid "instead of "
+msgstr "em vez de "
+
+#: includes/class-pagfort-boleto-admin.php:160
+msgid "Payment: "
+msgstr "Pagamento: "
+
+#: includes/class-pagfort-boleto-admin.php:161
+msgid "Value: "
+msgstr "Valor: "
+
+#: includes/class-pagfort-boleto-admin.php:162
+msgid "Paid: "
+msgstr "Pago: "
+
+#: includes/class-pagfort-boleto-admin.php:163
+msgid "Issued on: "
+msgstr "Emitido em: "
+
+#: includes/class-pagfort-boleto-admin.php:164
+msgid "Expiration on: "
+msgstr "Vencimento em: "
+
+#: includes/class-pagfort-boleto-admin.php:165
+msgid "Code: "
+msgstr "Código: "
+
+#: includes/class-pagfort-boleto-admin.php:166
+msgid "Number: "
+msgstr "Número: "
+
+#: includes/class-pagfort-boleto-admin.php:169
+msgid "Link:"
+msgstr "Link:"
+
+#: includes/class-pagfort-boleto-admin.php:169
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:22
+msgid "Print bank slip"
+msgstr "Imprimir boleto"
+
+#: includes/class-pagfort-boleto-admin.php:173
+msgid "SANDBOX ENVIROMENT"
+msgstr "AMBIENTE DE TESTE"
+
+#: includes/class-pagfort-boleto-admin.php:179
+msgid "This order was not placed or paid by bank slip."
+msgstr "Este pedido não foi realizado ou pago com boleto bancário."
+
+#: includes/class-pagfort-boleto-admin.php:204
+msgid "Wait a moment, trying to connect with the API ... "
+msgstr "Aguarde um momento, tentando conectar-se com a API … "
+
+#: includes/class-pagfort-boleto-admin.php:205
+msgid "Could not connect to an API!"
+msgstr "Não foi possível conectar-se com a API!"
+
+#: includes/class-pagfort-boleto-admin.php:206
+msgid "Your connection is working correctly!"
+msgstr "Sua conexão está funcionado corretamente!"
+
+#: includes/class-pagfort-boleto-admin.php:207
+msgid "Confirms order status update for "
+msgstr "Confirma a atualização do status do pedido para "
+
+#: includes/class-pagfort-boleto-admin.php:276
+msgid "For issue bank slip, the status \"WAITING\" must be selected!"
+msgstr ""
+"Para a emissão de boletos, o status “AGUARDANDO” precisa estar selecionado!"
+
+#: includes/class-pagfort-boleto-admin.php:279
+msgid "No items have been added to your order!"
+msgstr "Nenhum item foi adicionado ao seu pedido!"
+
+#: includes/class-pagfort-boleto-admin.php:283
+msgid "Select a customer!"
+msgstr "Selecione um cliente!"
+
+#: includes/class-pagfort-boleto-gateway.php:85
+#, php-format
+msgid "%s  %s%s de desconto no boleto bancário%s"
+msgstr "%s %s%s de desconto no boleto bancário%s"
+
+#: includes/class-pagfort-boleto-gateway.php:87
+#, php-format
+msgid "%s  %s%s discount on bank slip%s"
+msgstr "%s %s%s de desconto no boleto bancário%s"
+
+#: includes/class-pagfort-boleto-gateway.php:91
+#, php-format
+msgid ""
+"%s %sMODO DE TESTE:%s  Quando esta configuração estiver ativada, não serão "
+"gerados boletos, somente uma mensagem será apresentada informando o sucesso "
+"ou falha da operação.%s"
+msgstr ""
+"%s %sMODO DE TESTE:%s  Quando esta configuração estiver ativada, não serão "
+"gerados boletos, somente uma mensagem será apresentada informando o sucesso "
+"ou falha da operação.%s"
+
+#: includes/class-pagfort-boleto-gateway.php:93
+#, php-format
+msgid ""
+"%s %sSANDBOX MODE:%s  When this setting is enabled, no slips will be "
+"generated, only a message will be displayed stating the success or failure "
+"of the operation.%s"
+msgstr ""
+"%s %sMODO DE TESTE:%s Com essa configuração não serão gerados boletos, "
+"somente uma mensagem será apresentada informando o sucesso ou falha da "
+"operação.%s"
+
+#: includes/class-pagfort-boleto-gateway.php:116
+msgid ""
+"The Brazilian Market on WooCommerce Plugin (Extra Checkout Fields For "
+"Brazil) is installed!"
+msgstr ""
+"O Plugin Brazilian Market on WooCommerce (Extra Checkout Fields For Brazil) "
+"está instalado!"
+
+#: includes/class-pagfort-boleto-gateway.php:116
+msgid ""
+"The Brazilian Market on WooCommerce Plugin (Extra Checkout Fields For "
+"Brazil) is not installed!"
+msgstr ""
+"O Plugin Brazilian Market on WooCommerce (Extra Checkout Fields For Brazil) "
+"não está instalado!"
+
+#: includes/class-pagfort-boleto-gateway.php:152
+msgid "Discount"
+msgstr "Desconto"
+
+#: includes/class-pagfort-boleto-gateway.php:221
+msgid "Awaiting payment of the bank slip"
+msgstr "Aguardando pagamento do boleto"
+
+#: includes/class-pagfort-boleto-gateway.php:235
+#: includes/class-pagfort-boleto-gateway.php:294
+msgid "The bank slip could not be generated"
+msgstr ""
+
+#: includes/class-pagfort-boleto-gateway.php:295
+msgid "Cancel order"
+msgstr "Cancele o pedido"
+
+#: includes/class-pagfort-boleto-gateway.php:296
+msgid ""
+" and try again, if you continue to experience problems, contact your store "
+"administrator!"
+msgstr ""
+" e tente novamente, caso continue enfrentando problemas, entre em contato "
+"com o administrador da loja!"
+
+#: includes/class-pagfort-fields.php:24 includes/class-pagfort-fields.php:58
+#: includes/class-pagfort-fields.php:75
+msgid "Enable / Disable"
+msgstr "Habilitar / Desabilitar"
+
+#: includes/class-pagfort-fields.php:26
+msgid "Bank slip payment"
+msgstr "Pagamento com Boleto Bancário"
+
+#: includes/class-pagfort-fields.php:30
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-pagfort-fields.php:32
+msgid "This field controls the section title the user sees during checkout"
+msgstr ""
+"Esse campo controla o título da seção que o usuário vê durante o checkout"
+
+#: includes/class-pagfort-fields.php:34
+msgid "Bank Slip"
+msgstr "Boleto Bancário"
+
+#: includes/class-pagfort-fields.php:37
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-pagfort-fields.php:39
+msgid "This field controls the section text the user sees during checkout"
+msgstr ""
+"Esse campo controla o texto da seção que o usuário vê durante o checkout"
+
+#: includes/class-pagfort-fields.php:41
+msgid "Pay with bank slip"
+msgstr "Pagar com Boleto Bancário"
+
+#: includes/class-pagfort-fields.php:44
+msgid "Default due date"
+msgstr "Data de vencimento padrão"
+
+#: includes/class-pagfort-fields.php:46
+msgid ""
+"Enter the default number of days to expire after the bank slip is generated"
+msgstr ""
+"Digite o número padrão de dias para o vencimento após a geração do boleto "
+"bancário"
+
+#: includes/class-pagfort-fields.php:51
+msgid "Discount payment %"
+msgstr "Desconto para pagamento %"
+
+#: includes/class-pagfort-fields.php:53
+msgid "Máx 99.99%. Use dot to decimals (Ex.: 2.5, 10.7)"
+msgstr "Máx. 99.99%. Use ponto para casas decimais (Ex .: 2.5, 10.7)"
+
+#: includes/class-pagfort-fields.php:60
+msgid "Learn more about billing methods"
+msgstr "Saiba mais sobre as formas de cobrança"
+
+#: includes/class-pagfort-fields.php:61
+msgid "Allow billing"
+msgstr "Permitir cobrança"
+
+#: includes/class-pagfort-fields.php:71
+msgid "Sandbox enviroment API"
+msgstr "Ambiente de teste da API"
+
+#: includes/class-pagfort-fields.php:77
+msgid "Sandbox enviroment"
+msgstr "Ambiente de teste"
+
+#: includes/class-pagfort-fields.php:85
+msgid "Access credentials for the sandbox environment"
+msgstr "Credenciais de acesso para o ambiente de teste"
+
+#: includes/class-pagfort-fields.php:89 includes/class-pagfort-fields.php:111
+msgid "Login"
+msgstr "Login"
+
+#: includes/class-pagfort-fields.php:91
+msgid "Your platform access login sandbox"
+msgstr "Seu login do ambiente de teste"
+
+#: includes/class-pagfort-fields.php:96 includes/class-pagfort-fields.php:118
+msgid "Password"
+msgstr "Senha"
+
+#: includes/class-pagfort-fields.php:98 includes/class-pagfort-fields.php:120
+msgid "Your API access password"
+msgstr "Sua senha de acesso a API"
+
+#: includes/class-pagfort-fields.php:107
+msgid "Access credentials for the production environment"
+msgstr "Credenciais de acesso para o ambiente de produção"
+
+#: includes/class-pagfort-fields.php:113
+msgid "Your platform access login production"
+msgstr "Seu login de acesso para produção"
+
+#: includes/class-pagfort-fields.php:115
+msgid "Enter your login"
+msgstr "Informe seu login"
+
+#: includes/class-pagfort-fields.php:132
+msgid "Connection test"
+msgstr "Testar conexão"
+
+#: includes/class-pagfort-fields.php:134
+msgid ""
+"Test the server connection to ensure that communication is working correctly."
+msgstr ""
+"Teste a conexão do servidor para garantir que a comunicação esteja "
+"funcionando corretamente."
+
+#: includes/class-pagfort-fields.php:138
+msgid "Log debug"
+msgstr "Log de depuração"
+
+#: includes/class-pagfort-fields.php:140
+msgid "Enable all warning and error logs"
+msgstr "Ativa todos os logs de avisos e erros"
+
+#: includes/class-pagfort-fields.php:142
+#, php-format
+msgid ""
+"File that stores some plugin logs, such as API server calls and others. % s "
+"Enable to monitor any server communication issues."
+msgstr ""
+"Arquivo que armazena alguns logs da plugin, como chamadas ao servidor de API "
+"e outros. %s Ative para monitorar qualquer problema de comunicação com o "
+"servidor."
+
+#: includes/class-pagfort-fields.php:162
+msgid "Select the type of person!"
+msgstr "Selecione o tipo de pessoa!"
+
+#: includes/class-pagfort-fields.php:167
+msgid "Company name is required for legal entity!"
+msgstr "A Razão Social da empresa é obrigatória para pessoa jurídica!"
+
+#: includes/class-pagfort-fields.php:170
+msgid "CNPJ number is required!"
+msgstr "O número do CNPJ é obrigatório!"
+
+#: includes/class-pagfort-fields.php:173
+msgid "CNPJ number is invalid!"
+msgstr "O número do CNPJ é inválido!"
+
+#: includes/class-pagfort-fields.php:176
+msgid "Company State Registration is mandatory for legal entity!"
+msgstr "A Inscrição Estadual da empresa é obrigatória para pessoa jurídica!"
+
+#: includes/class-pagfort-fields.php:182
+msgid "Social Security Number is required!"
+msgstr "O número do CPF é obrigatório!"
+
+#: includes/class-pagfort-fields.php:185
+msgid "Social Security Number number is invalid!"
+msgstr "O número do CPF é inválido!"
+
+#: includes/class-pagfort-fields.php:188
+msgid "ID number is required!"
+msgstr "O número do RG é obrigatório!"
+
+#: includes/class-pagfort-fields.php:193
+msgid "Address number is required!"
+msgstr "O endereço é obrigatório!"
+
+#: includes/class-pagfort-fields.php:197
+msgid "Neighborhood is required!"
+msgstr "O bairro é obrigatório!"
+
+#: includes/class-pagfort-fields.php:201
+msgid "First name is required!"
+msgstr "O nome é obrigatório!"
+
+#: includes/class-pagfort-fields.php:205
+msgid "Last name is required!"
+msgstr "O sobrenome é obrigatório!"
+
+#: includes/class-pagfort-fields.php:209
+msgid "Address is required!"
+msgstr "O endereço é obrigatório!"
+
+#: includes/class-pagfort-fields.php:213
+msgid "City is required!"
+msgstr "A cidade é obrigatória!"
+
+#: includes/class-pagfort-fields.php:217
+msgid "Postcode is required!"
+msgstr "O CEP é obrigatório!"
+
+#: includes/class-pagfort-fields.php:221
+msgid "Country is required!"
+msgstr "O país é obrigatório!"
+
+#: includes/class-pagfort-fields.php:225
+msgid "State is required!"
+msgstr "O estado é obrigatório!"
+
+#: includes/class-pagfort-fields.php:229
+msgid "E-mail address is required!"
+msgstr "O e-mail é obrigatório!"
+
+#: includes/class-pagfort-fields.php:233
+msgid "Phone number is required!"
+msgstr "O telefone é obrigatório!"
+
+#: includes/class-pagfort-fields.php:245
+msgid "System Status &gt; Logs"
+msgstr "Logs de status do sistema"
+
+#: includes/class-pagfort-ws-api.php:61
+msgid "The body parameter must be a valid number."
+msgstr "O parâmetro do body deve ser um número válido."
+
+#: includes/class-pagfort-ws-api.php:64
+msgid "Access denied"
+msgstr "Acesso negado"
+
+#: includes/class-pagfort-ws-api.php:76
+msgid "Order number is not found or invalid."
+msgstr "O número do pedido não foi encontrado ou é inválido."
+
+#: includes/class-pagfort-ws-api.php:81
+msgid "Banks slip data number is not found or invalid."
+msgstr "O número do boleto não foi encontrado ou é inválido."
+
+#: includes/class-pagfort-ws-api.php:89
+msgid "Incorrect access information"
+msgstr "Informações de acesso incorretas"
+
+#: includes/class-pagfort-ws-api.php:92
+msgid "Consumer secret is invalid."
+msgstr "Consumer secreta é inválida."
+
+#: includes/class-pagfort-ws-api.php:95
+msgid "Rest API keys are invalid."
+msgstr "As chaves da API Rest são inválidas."
+
+#: includes/class-pagfort-ws-api.php:98
+msgid "The API key provided does not have read permissions."
+msgstr "A chave da API fornecida não possui permissões de leitura."
+
+#: includes/class-pagfort-ws-api.php:141
+msgid "BANK SLIP PAID"
+msgstr "BOLETO PAGO"
+
+#: includes/class-pagfort-ws-api.php:167
+msgid "Unable to change order status."
+msgstr "Não foi possível alterar o status do pedido."
+
+#: includes/class-pagfort-ws-api.php:337
+msgid "Desconto no boleto"
+msgstr ""
+
+#: includes/views/html-notice-extra-checkout-fields-brazil-detected.php:16
+#: includes/views/html-notice-woocommerce-missing.php:16
+msgid "Pagfort Bank Slip for WooCommerce"
+msgstr "Pagfort Boleto Bancário para WooCommerce"
+
+#: includes/views/html-notice-extra-checkout-fields-brazil-detected.php:19
+#: includes/views/html-notice-woocommerce-missing.php:16
+#, php-format
+msgid "This plugin depends on the last version of %s to work correctly!"
+msgstr ""
+"Este plugin depende da última versão do %s para funcionar corretamente!"
+
+#: includes/views/html-notice-extra-checkout-fields-brazil-detected.php:19
+msgid "Brazilian Market on WooCommerce"
+msgstr "Brazilian Market on WooCommerce"
+
+#: includes/views/html-notice-woocommerce-missing.php:16
+#: templates/woocommerce/woocommerce-missing.php:23
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: pagfort-boleto.php:197
+msgid "Settings"
+msgstr "Configurações"
+
+#: pagfort-boleto.php:214
+msgid "Plugin dependency check"
+msgstr "Verificação de dependência de plugin"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:3
+msgid "Payment"
+msgstr "Pagamento"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:8
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:10
+msgid "Bank slip status"
+msgstr "Status do boleto"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:12
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:14
+msgid "Date of issue"
+msgstr "Data de emissão"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:16
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:18
+msgid "Due date"
+msgstr "Data de vencimento"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:21
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:23
+msgid "Impression link"
+msgstr "Link de impressão"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:23
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:25
+msgid "Print ticket &rarr;"
+msgstr "Imprimir boleto &rarr;"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/email.php:26
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:28
+msgid "Digitable line"
+msgstr "Linha digitável"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:5
+msgid "Sandbox Enviroment"
+msgstr "Ambiente de testes"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:6
+msgid "The bank slip generation test has been successfully completed!"
+msgstr "O teste para geração do boleto foi completado com sucesso!"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:9
+msgid "Your ticket was successfully generated!"
+msgstr "Seu boleto foi gerado com sucesso!"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:16
+msgid "Below we have some options to facilitate your payment."
+msgstr "Abaixo temos algumas opções facilitar o seu pagamento."
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:21
+msgid "Print your bank slip"
+msgstr "Imprima seu boleto"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:27
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:33
+msgid "Use your banking app reader"
+msgstr "Use o leitor do seu aplicativo bancário"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:39
+msgid "Copy numbers from digitable line"
+msgstr "Copie os números da linha digitável"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:46
+msgid "Copy"
+msgstr "Copiar"
+
+#: templates/woocommerce/checkout/pagfort-boleto/bank-slip/thankyou.php:53
+#, php-format
+msgid ""
+"%sAttention!%s Your bank slip will not be sent by email, and will not be "
+"delivered by post."
+msgstr ""
+"%sAtenção!%s O seu boleto não será enviado por e-mail, e não será entregue "
+"pelos correios."
+
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:4
+msgid "Bank slip details"
+msgstr "Detalhes do boleto"
+
+#: templates/woocommerce/checkout/pagfort-boleto/details-ticket/details.php:6
+msgid "( * Sandbox Enviroment )"
+msgstr "( * Ambiente de teste )"
+
+#: templates/woocommerce/woocommerce-missing.php:21
+msgid "Pagfort plugin cannot be activated!"
+msgstr "O plugin Pagfort não pode ser ativado!"
+
+#: templates/woocommerce/woocommerce-missing.php:23
+#, php-format
+msgid "This plugin depends on the last version of %s to work!"
+msgstr "Este plugin depende da última versão do %s para funcionar!"
+
+#, fuzzy
+#~| msgid "Cancelled"
+#~ msgid "Cancele o pedido"
+#~ msgstr "Cancelado"
+
+#~ msgid "API key"
+#~ msgstr "Chave de API"
+
+#~ msgid "Your API key"
+#~ msgstr "Sua chave de API"
+
+#~ msgid "Access wrong"
+#~ msgstr "Acesso negado"
+
+#~ msgid "Payment status: "
+#~ msgstr "Status do pagamento: "
+
+#~ msgid "Sandbox enviroment SPC Protesto Nacional API"
+#~ msgstr "Ambiente de teste API SPC Protesto Nacional"
+
+#~ msgid "Pagfort"
+#~ msgstr "Pagfort"
+
+#~ msgid "Completed"
+#~ msgstr "Concluído"
+
+#~ msgid "Responsive Barcode"
+#~ msgstr "Código de barra responsivo"
+
+#~ msgid "Pagfort Bank slip"
+#~ msgstr "Pagfort Boleto Bancário"
+
+#~ msgid "Click to install plugin"
+#~ msgstr "Clique para instalar o plugin"
+
+#, php-format
+#~ msgid ""
+#~ "Please install and activate the plugin:  <a href=\"%s\" target=\"_blank"
+#~ "\">Brazilian Market on WooCommerce.</a>"
+#~ msgstr ""
+#~ "Por favor instale e ative o plugin <a href=“%s” target=“_blank”>Brazilian "
+#~ "Market on WooCommerce.</a>"
+
+#~ msgid ""
+#~ "Accept payments using bank slip, register on the SPC Protesto Nacional "
+#~ "platform."
+#~ msgstr ""
+#~ "Aceite pagamentos utilizando boleto bancário, faça seu cadastro na "
+#~ "plataforma do SPC Protesto Nacional."
+
+#~ msgid ""
+#~ "Aceite pagamentos utilizando boleto bancário, faça seu cadastro na "
+#~ "plataforma do SPC Protesto Nacional"
+#~ msgstr ""
+#~ "Aceite pagamentos utilizando boleto bancário, faça seu cadastro na "
+#~ "plataforma do SPC Protesto Nacional"
+
+#~ msgid "Ativa todos os logs de avisos e erros"
+#~ msgstr "Enable all warning and error logs"
+
+#, php-format
+#~ msgid ""
+#~ "Arquivo que armazena alguns logs da plugin, como chamadas ao servidor de "
+#~ "API e outros. %s Ative para monitorar qualquer problema de comunicação "
+#~ "com o servidor."
+#~ msgstr ""
+#~ "File that stores some plugin logs, such as API server calls and others. "
+#~ "% s Enable to monitor any server communication issues."
+
+#~ msgid "Billet Details"
+#~ msgstr "Detalhes do boleto"
+
+#~ msgid "Print your slip "
+#~ msgstr "Imprimir boleto "
+
+#~ msgid "Print ticket"
+#~ msgstr "Imprimir boleto"
+
+#~ msgid "This purchase was not paid with Ticket."
+#~ msgstr "Este pedido não foi realizado ou pago com boleto bancário."
+
+#~ msgid "Banking ticket"
+#~ msgstr "Boleto bancário"
+
+#~ msgid "Status ticket"
+#~ msgstr "Status do boleto"
+
+#~ msgid "Boleto modo sandbox"
+#~ msgstr "AMBIENTE DE TESTE"
+
+#~ msgid "Imprimir boleto"
+#~ msgstr "Imprimir boleto"
+
+#~ msgid "Copie os números da linha digitável "
+#~ msgstr "Copie os números da linha digitável"
+
+#~ msgid "Copiar"
+#~ msgstr "Copiar"
+
+#~ msgid "Imprima o seu boleto "
+#~ msgstr "Print your ticket "
+
+#~ msgid ""
+#~ "Para a emissão de boletos, o status \"AGUARDANDO\" precisa estar "
+#~ "selecionado"
+#~ msgstr ""
+#~ "Para a emissão de boletos, o status “AGUARDANDO” precisa estar selecionado"
+
+#~ msgid "Enter your production login"
+#~ msgstr "Informe seu login de acesso para produção"
+
+#~ msgid "Sandbox login"
+#~ msgstr "Login de teste"
+
+#~ msgid "Production login"
+#~ msgstr "Login de produção"
+
+#~ msgid "A Razão Social da empresa é obrigatória para pessoa jurídica!"
+#~ msgstr "A Razão Social da empresa é obrigatória para pessoa jurídica!"
+
+#~ msgid "O número do CNPJ é obrigatório!"
+#~ msgstr "O número do CNPJ é obrigatório!"
+
+#~ msgid "A Inscrição Estadual da empresa é obrigatória para pessoa jurídica!"
+#~ msgstr "A Inscrição Estadual da empresa é obrigatória para pessoa jurídica!"
+
+#~ msgid "O número do CPF é obrigatório!"
+#~ msgstr "O número do CPF é obrigatório!"
+
+#~ msgid "O número do RG é obrigatório!"
+#~ msgstr "O número do RG é obrigatório!"
+
+#~ msgid "O número do endereço é obrigatório!"
+#~ msgstr "O número do endereço é obrigatório!"
+
+#~ msgid "O bairro é obrigatório!"
+#~ msgstr "O bairro é obrigatório!"
+
+#~ msgid "O nome é obrigatório!"
+#~ msgstr "O nome é obrigatório!"
+
+#~ msgid "O sobrenome é obrigatório!"
+#~ msgstr "O sobrenome é obrigatório!"
+
+#~ msgid "O endereço é obrigatório!"
+#~ msgstr "O endereço é obrigatório!"
+
+#~ msgid "A cidade é obrigatória!"
+#~ msgstr "A cidade é obrigatória!"
+
+#~ msgid "O cep é obrigatório!"
+#~ msgstr "O cep é obrigatório!"
+
+#~ msgid "O país é obrigatório!"
+#~ msgstr "O país é obrigatório!"
+
+#~ msgid "O estado é obrigatório!"
+#~ msgstr "O estado é obrigatório!"
+
+#~ msgid "O e-mail é obrigatório!"
+#~ msgstr "O e-mail é obrigatório!"
+
+#~ msgid "O telefone é obrigatório!"
+#~ msgstr "O telefone é obrigatório!"
+
+#~ msgid "Aguardando pagamento do boleto"
+#~ msgstr "Aguardando pagamento do boleto"
+
+#~ msgid " SANDBOX MODE ENABLED: "
+#~ msgstr " MODO SANDBOX ATIVADO "
+
+#~ msgid "Enter your API key"
+#~ msgstr "Informe sua chave de API"
+
+#~ msgid "Test your connection with API"
+#~ msgstr "Teste sua conexão com a API"
+
+#~ msgid "Teste sua conexão com o servidor para garantir um bom funcionamento"
+#~ msgstr "Teste sua conexão com o servidor para garantir um bom funcionamento"
+
+#~ msgid "Habil"
+#~ msgstr "Vai ti pude"
+
+#~ msgid "Enables payment using bank slip"
+#~ msgstr "Habilitar o pagamento utilizando boleto bancário"
